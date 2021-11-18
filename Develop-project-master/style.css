@@ -1,0 +1,102 @@
+body{
+    font-family: 'Quicksand';
+    margin: 0px;
+    }
+    
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+        
+        font-weight: bolder;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: auto;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    nav ul li {
+        margin: 2rem;
+       
+        margin-bottom: auto;
+       
+        
+    
+    }
+    
+    nav ul li img{
+        width: 100px;
+        margin-left: 1rem ;
+        margin-right: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+    nav ul li a{
+
+        text-decoration: none;
+    }
+    
+    nav ul li:first-child{
+        margin-left: 1rem ;
+        margin-right: auto;
+        text-align: center;
+       
+    
+    }
+
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+        background-color:#9375ff ;
+        margin: auto;
+        color:whitesmoke;
+        font-size: x-large;
+        
+    }
+    header img{
+
+        width: 70%;
+    }
+    .img{
+        text-align: center;
+        width: 100%;
+    }
+    header button{
+        background-color: yellow;
+        transition: all 0.5;
+        display:flex;
+        justify-items: flex-start;
+        box-shadow: black;
+
+    }
+    .text{
+        margin-bottom: 2rem;
+    }
+    .services{
+        width: auto;
+        height: 100px;
+        color: #00a69c;
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .card{
+
+        width: auto;
+        height: 500px;
+        background-color: gainsboro;
+    }
+    .card{
+        text-align: center;
+        width: 30px;
+        height: 30px;
+    }

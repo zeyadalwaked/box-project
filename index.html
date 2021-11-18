@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Selecting an Element!</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <ul class="container">
+      <li class="box" id="box-1"></li>
+      <li class="box box-to-select" id="box-2"></li>
+      <li class="box box-to-select" id="box-3"></li>
+      <li class="box box-to-select" id="box-4"></li>
+      <li class="box" id="box-5"></li>
+      <li class="box box-to-select-2" id="box-6"></li>
+      <li class="box box-to-select-2" id="box-7"></li>
+      <li class="box box-to-select-2" id="box-8"></li>
+    </ul>
+  </div>
+
+  <script>
+      //Get element by id
+      const box =document.getElementById("box-1");
+      box.addEventListener("")
+
+
+      //Get element by className
+      var boxs=document.getElementsByClassName("box-to-select");
+
+      //Iterate boxes through a For of loop to add functionallity
+      for (const elemnt of box){
+        elemnt.addEventListener("click",function(event)){
+          event.target.style.backgroundColor="blue";
+          console.log(event,"event");
+        };
+      }
+      elemnt.addEventListener()
+      //Get Element with qeurySelector
+      querySelector = document.querySelector('#box-1');
+       console.log(querySelector);
+
+      //Get element by querySelectorAll
+      qu
+      //Iterate boxes through a For of loop to add functionallity
+  </script>
+   <script src="/Develop-project-master/script.js"></script>
+</body>
+
+</html>
